@@ -1,17 +1,22 @@
 <template>
   <div>
     <TitleComp />
+    <JumbotronComp />
   </div>
 </template>
 
 <script>
-import TitleComp from "./components/TitleComp.vue"
+import TitleComp from "./components/TitleComp.vue";
+import JumbotronComp from "./components/JumbotronComp.vue";
+
 
 export default {
   name: 'App',
   components: {
-   TitleComp
-  }
+    TitleComp,
+    JumbotronComp,
+    
+}
 }
 </script>
 
